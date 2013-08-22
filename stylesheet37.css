@@ -1,0 +1,223 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+margin: 0;	
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;}
+
+
+.container {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	padding-top:30px;
+
+	text-align:center;
+}
+
+.headerlist li {
+	display:inline-block;
+	float:right;
+	position:relative;
+	font-family:Arial;
+	font-size:10px;
+	margin:10px;
+	right:50px;
+	bottom:25px;
+}
+
+.headerlist li a{
+	
+	color:#23628C;
+	text-decoration:none;
+}
+
+
+.headerlist li a span {
+	color:#2EB6D1;
+}
+
+.headerlist li a span:hover {			
+	color:#23628C;
+}
+
+.headerlist .date {	
+
+	float:left;
+	display:inline;
+	position:relative;
+	color:#929596;
+	font-size:12px;
+	font-family:Arial;
+	margin-left:100px;
+}
+
+
+.date li {
+	text-decoration:none;
+}
+
+
+
+ .container img{
+	
+	
+	margin:0 auto;
+	text-align:center;
+	padding-left:250px;
+	padding-right:250px;
+	
+	
+}
+
+h1{
+	display: block;
+	position:static;
+	color:#242323;
+	font-size: 50px;
+	font-family:serif,Times New Roman;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+h3	{
+	display:block;
+	position:static;
+	color:#242323;
+	font-weight:bold;
+	font-size:20px;
+	font-family:serif,Times New Roman;
+	text-align:center;
+	
+	
+}
+
+.boxes a {
+	float:right;
+	border:1px solid #E3E1E1;
+	border-radius:5px;
+	height:240px;
+	width:170px;
+	margin:30px 16px 40px;
+  	background:linear-gradient(#FFFFFF, #EBE8E9);
+}
+
+.boxes	{
+	padding-right:100px;
+
+}
+
+
+
+#boxtext  a{	
+	text-decoration:none;
+}
+
+#boxtext a img{
+	bottom:-5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	float:left;
+	padding-left:37px;
+	padding-bottom:15px;
+}
+
+.bcpopup {
+	display:none;
+}
+
+.bcpopup h1 {
+	position:static;
+	color:#242323;
+	font-size: 50px;
+	font-family:serif,Times New Roman;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.bcpopup p{
+	position:absolute;
+	color:#242323;
+	font-size: 14px;
+	font-family:serif,Times New Roman;
+	margin-left:auto;
+	margin-right:auto;
+
+
+
+
+}
+
+	  
+
+}
+
+h4{
+	
+	color:#4E76A3;
+	font-size:21px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center
+	
+}	
+
+h5 {	
+	color:#DB0F0F;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:13px;
+	margin:10px;
+}
+
+h6 {	
+	font-family:Arial;
+	font-size:14px;
+	color:black;
+	top:45px;
+	padding:5px;
+	margin-bottom:20px;
+}
+
+#boxtext span {
+	margin-left:116px;
+	}
+
+
+.astericks img {
+
+	margin-left:auto;
+	margin-right:auto;
+	top:300px; 
+	padding-left:340px;
+
+arrow 
+	background: url('http://37signals.com/images/arrow-left.png');
+
+
+
+
+
+}
+

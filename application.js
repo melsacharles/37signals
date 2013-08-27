@@ -1,15 +1,31 @@
 
-
 $(document).ready(function(){
-	$(".boxes").mouseenter(function(){
-	$(".container h1").empty();
+	$(".basecamp").mouseover(function(){
+	$(" .header,h3").hide();
 	$(".bcpopup ").show();
-	$(".bcpopup ").prepend(); 
-
-
-	//$("boxes").mouseleave(function(){
-		//$("h1").("Making collaboration productive and enjoyable for people every day.");
-	
-
 });
+
+	$(".basecamp").mouseout(function(){
+	$(" .header ,h3").show();
+	$(" .bcpopup").hide();	
+});
+
+	$(".highrise").mouseover(function(){
+	$(".header,h3").hide();
+	$(".hrpopup").show();
+});
+	$(".highrise").mouseout(function(){
+	$(".header,h3").show();
+	$(".hrpopup").hide();
+});	
+
+	$(".campfire").mouseover(function(){
+	$(".header,h3").hide();
+	$(".cfpopup").show();
+});
+	$(".campfire").mouseout(function(){
+	$(".header,h3").show();
+	$(".cfpopup").hide();
+});	
+
 });
